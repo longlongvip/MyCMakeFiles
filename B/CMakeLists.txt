@@ -22,7 +22,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 # 头文件 和 源文件
 FILE(GLOB_RECURSE SRC_FILES "*.cpp")
-FILE(GLOB HEAD_FILES "*.h")
 
 # 指定生成目标
-add_executable(${PROJECT_NAME} ${SRC_FILES} ${HEAD_FILES})
+add_executable(${PROJECT_NAME} ${SRC_FILES})

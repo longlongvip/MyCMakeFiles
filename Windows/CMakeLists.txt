@@ -12,7 +12,4 @@ include(CMake/Compiler.cmake)
 add_definitions(-DUNICODE -D_UNICODE)
 add_definitions("/MP")
 
-
-
-
-# add_executable(windows  WIN32 src/App.cpp)
+add_executable(windows  WIN32 src/App.cpp)

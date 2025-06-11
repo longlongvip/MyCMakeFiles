@@ -1,6 +1,8 @@
 build
-CMake
 
 A/Debug
 B/Debug
 C/Debug
+
+Windows/.cache
+Windows/build
